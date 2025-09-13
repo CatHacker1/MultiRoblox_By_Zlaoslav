@@ -12,7 +12,7 @@ I affirm that the distributed source code does not contain any malicious code or
 
 - Discord Name: @78060 (Slavik)
 - Roblox Name: Zlaoslav
-- GitHub: https://github.com/CatHacker1/MultiRoblox_By_Zlaoslav
+- GitHub: https://github.com/Zlaoslav/MultiRoblox_By_Zlaoslav/
 
 ---
 
