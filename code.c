@@ -59,7 +59,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         "ROBLOX instance will close.\r\n\r\n"
         "Discord Name: @78060 (Slavik)\r\n"
         "Roblox Name: Zlaoslav\r\n"
-        "GitHub Link: https://github.com/CatHacker1/MultiRoblox_By_Zlaoslav\r\n",
+        "GitHub Link: https://github.com/Zlaoslav/MultiRoblox_By_Zlaoslav/\r\n",
         WS_BORDER | WS_VISIBLE | WS_CHILD | ES_LEFT | ES_AUTOHSCROLL | ES_MULTILINE | ES_READONLY,
         10, 40, 365, 365,
         g_hwnd, NULL, hInstance, NULL);
