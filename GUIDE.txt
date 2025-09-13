@@ -1,0 +1,60 @@
+ENGLISH (BY GOOGLE TRANSLATE)
+https://chatgpt.com/share/68c5d6fc-06cc-8006-a3f5-b22b1ffc6507
+
+1. Download and install MSYS2
+https://www.msys2.org
+! INSTALL INTO FOLDER WITHOUT SPACES/CYRILLIC!
+
+2. Update package system
+Run downloaded MSYS2 and execute the following commands:
+
+pacman -Syu
+
+pacman -Su
+
+pacman -S mingw-w64-x86_64-gcc
+
+!IF ASKED FOR CONFIRMATION SEND y !
+
+3. Run MSYS2 MinGW !NOT MSYS! and run:
+
+gcc --version
+
+if it displays an error, check that it was not MSYS that launched it, if there is no error, enter:
+
+cd /c/PATH/TO/YOUR/FOLDER
+
+gcc multiroblox.c -o multiroblox.exe -mwindows
+
+After that, multiroblox.exe will appear in the folder
+
+РУССКИЙ (ОРИГИНАЛ)
+https://chatgpt.com/share/68c5d6fc-06cc-8006-a3f5-b22b1ffc6507
+
+1. Скачай и установи MSYS2
+https://www.msys2.org
+!УСТОНАВЛИВАТЬ В ПАПКУ БЕЗ ПРОБЕЛОВ/КИРИЛИЦЫ!
+
+2. Обнови систему пакетов
+Запусти скаченную MSYS2 и выполни следующие команды:
+
+pacman -Syu
+
+pacman -Su
+
+pacman -S mingw-w64-x86_64-gcc
+
+!ЕСЛИ ПРОСИТ ПОДТВЕРЖДЕНИЕ ОТПРАВЛЯЙ y !
+
+3. Запусти MSYS2 MinGW !НЕ MSYS! и выполни:
+
+gcc --version
+
+если выводит ошибку перепровь что запустил не MSYS, если нет ошибки вводи:
+
+cd /c/ПУТЬ/К/ТВОЕЙ/ПАПКЕ
+
+gcc multiroblox.c -o multiroblox.exe -mwindows
+
+После этого в папке появится multiroblox.exe
+
